@@ -1,0 +1,12 @@
+2 9
+apple
+banana
+apple -52342.8
+banana 49142.39
+banana 86422.83
+apple -4622.30
+banana 28974.15
+apple -16296.35
+apple -2594.86
+apple -16592.70
+apple -7734.83

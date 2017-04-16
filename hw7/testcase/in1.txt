@@ -1,0 +1,9 @@
+2 6
+apple
+banana
+Banana 4,188
+Banana 58,644
+Apple 79,699
+apple -65,564
+banana 80,871
+apple -78,261

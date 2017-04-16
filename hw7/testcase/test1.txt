@@ -1,0 +1,10 @@
+2 6
+apple
+banana
+Apple $10.0
+Banana 10
+apple 12.1
+banana -$2.1
+apple 2,000.00
+banana ($1,000.50)
+

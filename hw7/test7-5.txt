@@ -1,0 +1,12 @@
+5 6
+apple
+banana
+orange
+watermelon
+grapefruit
+pple $10.0
+anAna 10
+applee 12.1
+pBanana -$2.1
+apQle 2,000.00
+bamana ($1,000.50)
