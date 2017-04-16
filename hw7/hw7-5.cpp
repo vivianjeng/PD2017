@@ -87,6 +87,8 @@ int main() {
           if(finish_compare)
               break;
       }
+      if(finish_compare)
+              continue;
         length = strlen(fruit);
       // a = 97, z = 122
       
@@ -117,11 +119,13 @@ int main() {
         if(finish_compare)
               break;
       }
+      if(finish_compare)
+              continue;
 
       //delete
       for (int k = 0; k < length; k++)
-      {
-        char temp[length+1];
+      { 
+        char temp[length];
         strcpy(temp,fruit);
 
         for (int l = k; l < length-1 ; l++)
@@ -140,6 +144,8 @@ int main() {
           if(finish_compare)
               break;
       }
+      if(finish_compare)
+              continue;
 
       //substitute
       for (int k = 0; k < length; k++)
@@ -150,6 +156,7 @@ int main() {
         for (int m = 97; m < 123; m++)
         {
           temp[k] = (char)m;
+
           for(int j=0;j<n;j++){
             if(strcmp(temp,fruit_type[j]) == 0){
                compute_sum(adjust_price,floating_number,fruit_price[j],fruit_price_float[j],price_negative);
@@ -161,7 +168,11 @@ int main() {
           if(finish_compare)
               break;
         }
+        if(finish_compare)
+              break;
       }
+      if(finish_compare)
+              continue;
     }
 
     for (int i = 0; i < n; i++)
